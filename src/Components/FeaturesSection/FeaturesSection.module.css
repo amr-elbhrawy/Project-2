@@ -1,16 +1,14 @@
- .featuresContainer {
-    width: 100vw;
-    max-width: 100%;
-    padding: 50px 5%; 
-    margin: 0 auto;
-}
-
- .row {
-    margin: 0;
+.featuresContainer {
+    display: block;
     width: 100%;
+    height: auto;
+    padding: 50px 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
- .img-car {
+.img-car {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,14 +16,13 @@
     z-index: 2;
 }
 
- .carImage {
-    max-width: 100%;
+.carImage {
+    max-width: 90%;
     height: auto;
-    object-fit: contain;   
     display: block;
 }
 
- .whyChooseUsBtn {
+.whyChooseUsBtn {
     background-color: #e6e9fc;
     color: rgb(74, 112, 248);
     font-weight: bold;
@@ -36,26 +33,26 @@
     margin-bottom: 10px;
 }
 
- .mainTitle {
+.mainTitle {
     font-size: 32px;
     font-weight: bold;
     color: #222;
 }
 
- .overlayBg {
+.overlayBg {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 100%;
     background-image: url("/imgs/landing-page/sec-5/Vector.png");
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: left;
     background-repeat: no-repeat;
-    z-index: -1111;
+    z-index: -1;
 }
 
- .featureCard {
+.featureCard {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -65,25 +62,85 @@
     margin-bottom: 15px;
 }
 
- 
 .iconContainer {
     background-color: #e6e9fc;
     padding: 10px;
     border-radius: 8px;
 }
- 
+
 .iconStyle {
     font-size: 24px;
     color: rgb(36, 83, 255);
 }
- 
-.featureTitle {
-    font-size: 18px;
-    font-weight: bold;
-    color: #222;
+
+.mainTitle {
+    font-size: 32px;
+    font-weight: 700;
 }
- 
+
+.featureTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .featureText {
+    font-size: 16px;
     color: #555;
-    margin: 0;
+}
+
+ @media (max-width: 992px) { 
+    .featuresRow {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .img-car {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .carImage {
+        max-width: 90%;
+        height: auto;
+        display: block !important;
+        margin-bottom: 20px;
+    }
+
+    .featureCard {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+        .overlayBg {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainTitle {
+        font-size: 24px;
+    }
+
+    .featureTitle {
+        font-size: 18px;
+    }
+
+    .featureText {
+        font-size: 14px;
+    }
+
+    .whyChooseUsBtn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .iconContainer {
+        padding: 12px;
+        border-radius: 50%;
+    }
+    .overlayBg {
+        display: none;
+    }
 }

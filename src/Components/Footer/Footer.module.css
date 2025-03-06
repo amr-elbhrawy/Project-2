@@ -1,0 +1,68 @@
+.footer {
+  background-color: #0b1a2a;
+  color: #ffffff;
+  padding: 40px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #f8f9fa;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #ddd;
+}
+
+.footerList {
+  list-style: none;
+  padding: 0;
+}
+
+.footerList li {
+  font-size: 14px;
+  color: #bbb;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footerList li:hover {
+  color: #ffffff;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.socialIcon {
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.socialIcon:hover {
+  transform: scale(1.2);
+  color: #17a2b8;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #888;
+  margin-top: 20px;
+}
+.footer {
+  margin-top: auto;
+}

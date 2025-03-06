@@ -1,0 +1,63 @@
+.wrapper {
+    padding: 50px 0;
+  }
+  
+  .formCard {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #007bff;
+  }
+  
+  .subtext {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .storeButtons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .storeIcon {
+    width: 140px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .inputField {
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #e7effd;
+    border: none;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .imageContainer {
+    text-align: center;
+  }
+  
+  .phoneImage {
+    max-width: 100%;
+    height: auto;
+  }
+  

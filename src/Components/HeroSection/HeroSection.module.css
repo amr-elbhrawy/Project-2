@@ -1,0 +1,115 @@
+.heroSection {
+  background: url("/imgs/landing-page/pattern.png") no-repeat center center;  
+  background-size: contain; 
+  padding: 50px 0;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.textContainer {
+ 
+  text-align: left;
+  padding-left: 5%; 
+}
+
+.title {
+  font-weight: bold;
+  color: #222;
+  font-size: 4.5rem;
+
+}
+
+.highlight {
+  color: #007bff;
+  position: relative;
+}
+
+.highlight::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #007bff;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.storeButtons {
+  margin-top: 20px;
+}
+
+.storeIcon {
+  width: 140px;
+  margin-right: 10px;
+}
+
+.imageContainer {
+  position: relative;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;  
+
+}
+
+.carImage {
+  height: auto;
+  display: block;
+   display: block;
+  position: relative;
+  z-index: 0;
+  max-width: 90%;
+ right: 0;
+ width: 100%;
+ margin: 0; 
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 5%;
+   width: 100%;
+  height: 100%;
+  background-image: url("/imgs/landing-page/Frame.png");  
+  background-size: contain;
+   opacity: 0.9; 
+  background-repeat: no-repeat;
+  background-position:  right  ;
+ }
+.heroSection {
+  background: #f8f9fa;
+  padding: 50px 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.textContainer {
+  text-align: left;
+  padding-right: 5%;
+}
+
+.imageContainer {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+
+}
+
+.carImage {
+  width: 100%;  
+  height: auto;
+  display: block;
+}
+.container-fluid {
+  padding: 0 !important;  
+  margin: 0 auto;  
+  overflow-x: hidden; 
+}
