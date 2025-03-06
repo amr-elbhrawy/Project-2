@@ -4,7 +4,7 @@ import HeroSection from "../HeroSection/HeroSection";
 import Cars from "../Cars/Cars";
 import CarRental from "../CarRental/CarRental";
 import Testimonials from "../Testimonials/Testimonials";
-import RentCarsForm from "../RentcarsForm/RentcarsForm";
+import RentCarsForm from "../RentCarsForm/RentCarsForm";
 import Footer from "../Footer/Footer";
 import FeaturesSection from "../FeaturesSection/FeaturesSection";
 import styles from "./MasterLayout.module.css";  
