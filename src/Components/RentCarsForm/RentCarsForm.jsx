@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./RentcarsForm.module.css";
+import styles from "./RentCarsForm.module.css";
 import { Form, Button, Container, Row, Col, Card } from "react-bootstrap";
  
  
